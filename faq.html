@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<title>Serrano School of Music - FAQ</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device=width, initial-scale=1.0">
+<link href="serranoschool.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<nav>
+		<ul>
+		<li><a href="index.html#home"><img src="record.png" alt="record" width="90" height="60"></a></li>
+		<li><a href="index.html#home">Home</a></li> 
+		<li><a href="classes.html">Classes</a></li>
+		<li><a href="privatelessons.html">Private Lessons</a></li>
+		<li><a href="faculty.html">Faculty</a></li>
+		<li><a href="events.html">Events</a></li>
+		<li><a href="merchandise.html">Merchandise</a></li>
+		<li><a href="faq.html">FAQ</a></li>
+		</ul>
+	</nav>
+
+
+
+<main>
+
+	<h1>Frequently Asked Questions</h1>
+
+	<button type="button" class="collapsible">What if I can't make it to my lesson?</button>
+	<div class="content">
+	  <p>Please contact our main office or your instructor to let us know so that we can reschedule.</p>
+	</div>
+
+	<button type="button" class="collapsible">If I can't make it to class will I be refunded?</button>
+	<div class="content">
+	  <p>Yes we can refund you for your class or we can reschedule at no additional cost.</p>
+	</div>
+
+	<button type="button" class="collapsible">If my lesson is in person can I move it to online?</button>
+	<div class="content">
+	  <p>Yes! If you are an online student and would like to be in person. Please let us know.</p>
+	</div>
+
+	<button type="button" class="collapsible">What if my teacher is absent?</button>
+	<div class="content">
+	  <p>We will arrange for a qualified substitute.</p>
+	</div>
+
+	<button type="button" class="collapsible">How does billing work?</button>
+	<div class="content">
+	  <p>All lessons/classes are billed on a monthly basis.</p>
+	</div>
+
+	<button type="button" class="collapsible">Where do I go to login for an online class?</button>
+	<div class="content">
+	  <p>We will send you a link via email which will bring you to an online conferencing app.</p>
+	</div>
+
+	<button type="button" class="collapsible">What if I don't have an instrument?</button>
+	<div class="content">
+	  <p>No problem! We have plenty available for rental.</p>
+	</div>
+
+	<button type="button" class="collapsible">Is there a minimum age for students?</button>
+	<div class="content">
+	  <p>We have classes available for all ages beginning at 1.</p>
+	</div>
+
+	<button type="button" class="collapsible">How do I hire you for an event?</button>
+	<div class="content">
+	  <p>Please visit our events page and submit a form to hire us.</p>
+	</div>
+
+	<button type="button" class="collapsible">Where are you located?</button>
+	<div class="content">
+	  <p>Our school is located at 339 E Chicago Ave, Chicago, IL 60611</p>
+	</div>
+
+	<button type="button" class="collapsible">What is your office number?</button>
+	<div class="content">
+	  <p>Our office line is 888-555-5555</p>
+	</div>
+
+</main>
+
+<footer>
+	Copyright &copy; 2025 Serrano School of Music<br>
+	<a href="mailto:Eric@Serrano.com">
+	Eric@Serrano.com</a>
+</footer>
+
+<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+	
+	for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var content = this.nextElementSibling;
+		if (content.style.display === "block") {
+		  content.style.display = "none";
+		} else {
+		  content.style.display = "block";
+		}
+	  });
+	}
+	</script>
+
+</body>
+
+</html>
