@@ -179,3 +179,16 @@ input[type="reset"] {padding: .4em;}
         overflow: hidden;
         background-color: #f1f1f1;}
 
+
+@media screen and (max-width: 768px) {
+.lesson-card {
+width: 250px;}
+}
+
+
+@media screen and (max-width: 480px) {
+.lesson-card {
+width: 90%;
+margin: 10px auto; }
+}
+
