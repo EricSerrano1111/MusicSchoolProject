@@ -9,7 +9,7 @@ A frontend music school website built to provide information about the school's 
 - **JavaScript:** For adding interactivity to the pages.
 
 ## How to Run Locally
-To run this project locally, simply double-click the `index.html` file to open it in any modern web browser. No complex server setup is required!
+To run this project locally, simply double-click the `index.html` file to open it in any modern web browser. No complex server setup is required.
 
 ## Project Features
 The website includes the following core features and structural requirements:
