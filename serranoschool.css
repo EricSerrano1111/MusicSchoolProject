@@ -1,4 +1,4 @@
-header {background-image: url(serranologo.png); 
+header {background-image: url(images/serranologo.png);
         height: 180px;  
         background-color: white;
         background-attachment: fixed; 
@@ -24,7 +24,7 @@ body {background-color: #eee2dc;
 .imagehero {height: auto;
         width: 100%;}
 
-.hero {background-image: url(musicnotes.png); 
+.hero {background-image: url(images/musicnotes.png);
         min-height: 100vh;  
         background-attachment: fixed; 
         background-position: center; 
@@ -32,7 +32,7 @@ body {background-color: #eee2dc;
         background-size: cover; 
         padding: 0;}
 
-.classhero {background-image: url(musicclass.png); 
+.classhero {background-image: url(images/musicclass.png);
         min-height: 100vh;  
         background-attachment: fixed; 
         background-position: center; 
@@ -40,7 +40,7 @@ body {background-color: #eee2dc;
         background-size: cover; 
         padding: 0;}
 
-.eventhero {background-image: url(concert.png); 
+.eventhero {background-image: url(images/concert.png);
         min-height: 100vh;  
         background-attachment: fixed; 
         background-position: center; 
@@ -48,7 +48,7 @@ body {background-color: #eee2dc;
         background-size: cover; 
         padding: 0;}
 
-.privatehero {background-image: url(privatelesson.png); 
+.privatehero {background-image: url(images/privatelesson.png);
         min-height: 100vh;  
         background-attachment: fixed; 
         background-position: center; 
@@ -56,7 +56,7 @@ body {background-color: #eee2dc;
         background-size: cover; 
         padding: 0;}
 
-.facultyhero {background-image: url(facility.png); 
+.facultyhero {background-image: url(images/facility.png);
         min-height: 100vh;  
         background-attachment: fixed; 
         background-position: center; 
